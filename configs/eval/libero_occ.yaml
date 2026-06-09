@@ -1,0 +1,12 @@
+task_suites:
+  - libero_spatial_occluded
+  - libero_goal_occluded
+  - libero_object_occluded
+  - libero_10_occluded
+perspective_obs_key: robot0_eye_in_hand_image
+camera_resolution: 200
+num_trials_per_task: 1
+num_steps_wait: 10
+cot_max_new_tokens: 1024
+normalizer_key: libero
+

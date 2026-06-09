@@ -1,0 +1,18 @@
+stage: 1
+description: Viewpoint imagination pretraining.
+perspective_image_key: gripper_image
+perspective_view_name: gripper
+global_batch_size: 192
+per_gpu_batch_size: 3
+max_steps: 4000
+learning_rate: 8.0e-5
+min_learning_rate: 5.0e-6
+weight_decay: 0.1
+warmup_steps: 50
+action_frames: 10
+loss_weights:
+  visual_content: 1.0
+  visual_special: 1.0
+  action_content: 0.0
+  action_special: 0.0
+

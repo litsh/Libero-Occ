@@ -1,0 +1,18 @@
+stage: 2
+description: Joint viewpoint imagination and action prediction.
+perspective_image_key: gripper_image
+perspective_view_name: gripper
+global_batch_size: 192
+per_gpu_batch_size: 3
+max_steps: 6000
+learning_rate: 4.0e-5
+min_learning_rate: 5.0e-6
+weight_decay: 0.1
+warmup_steps: 50
+action_frames: 10
+loss_weights:
+  visual_content: 0.5
+  visual_special: 0.5
+  action_content: 1.0
+  action_special: 0.2
+

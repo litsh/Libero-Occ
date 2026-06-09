@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "LIBERO-Occ: Evaluating and Improving Vision-Language-Action Models under Scene-Induced Occlusion via Viewpoint Imagination"
+message: "If you use LIBERO-Occ or VIM, please cite the paper."
+type: software
+authors:
+  - family-names: "TODO"
+    given-names: "TODO"
+repository-code: "https://github.com/TODO/LIBERO-Occ"
+license: MIT
+date-released: 2026-06-09
+
