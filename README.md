@@ -88,10 +88,13 @@ This repository is released under the MIT License. LIBERO-Occ is built on top of
 ## Citation
 
 ```bibtex
-@article{todo2026liberoocc,
-  title={LIBERO-Occ: Evaluating and Improving Vision-Language-Action Models under Scene-Induced Occlusion via Viewpoint Imagination},
-  author={TODO},
-  journal={TODO},
-  year={2026}
+@misc{li2026liberooccevaluatingimprovingvisionlanguageaction,
+      title={LIBERO-Occ: Evaluating and Improving Vision-Language-Action Models under Scene-Induced Occlusion via Viewpoint Imagination}, 
+      author={Taishan Li and Jiwen Zhang and Siyuan Wang and Xuanjing Huang and Zhongyu Wei},
+      year={2026},
+      eprint={2606.10862},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2606.10862}, 
 }
 ```
